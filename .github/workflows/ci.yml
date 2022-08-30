@@ -8,8 +8,8 @@ jobs:
       - name: Checkout ????️
         uses: actions/checkout@v1
       - name: Build and Deploy
-          run: | 
-              npm install && npm run build
+        run: | 
+          npm install && npm run build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with: 
